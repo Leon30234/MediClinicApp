@@ -1,70 +1,60 @@
-# MediClinic App
+# MediClinicApp — Gestión de clínica médica
 
-Aplicación fullstack para gestionar citas médicas, doctores y consultas de una clínica pequeña.
+## Descripción del proyecto
 
-## Tecnologías
+MediClinicApp es una aplicación web que desarrollé durante mi formación en un bootcamp de programación.
 
-- Frontend: React + TypeScript + Tailwind CSS
-- Rutas: React Router
-- Backend/API: Node.js + Express
-- Arquitectura backend: routes, controllers, services y validación
-- Documentación: carpeta `docs/`
+El objetivo del proyecto fue crear una aplicación para gestionar la información de una clínica pequeña, incluyendo médicos, citas y consultas.
+
+## Tecnologías utilizadas
+
+- React: creación de la interfaz web.
+- TypeScript: programación de la aplicación.
+- Tailwind CSS: diseño y estilos.
+- Node.js: entorno de ejecución del servidor.
+- Express: desarrollo del backend.
+- Vite: herramienta para ejecutar y preparar el frontend.
 
 ## Funcionalidades
 
-- Login simulado de usuario
-- Página de inicio
-- Listado de doctores
-- Gestión de citas médicas
-- Creación de citas mediante formulario controlado
-- Cancelación de citas
-- Página de consultas médicas
-- Página 404
-- Estados de red: loading, data y error
-- Context API para usuario global
-- Custom hooks para doctores y citas
+- Página principal con información de la aplicación.
+- Listado de médicos con especialidades y horarios disponibles.
+- Formulario para crear citas médicas.
+- Visualización de las citas programadas.
+- Contador de citas activas.
+- Opción para cancelar citas.
+- Apartado de consultas médicas de ejemplo.
+- Formulario de inicio de sesión simulado.
 
-## Instalación
+## Cómo ejecutar el proyecto
+
+Es necesario tener instalado Node.js.
+
+1. Descargar o clonar el repositorio.
+2. Abrir la carpeta del proyecto en Visual Studio Code.
+3. Abrir una terminal.
+4. Instalar las dependencias:
 
 ```bash
 npm install
+```
+
+5. Ejecutar la aplicación:
+
+```bash
 npm run dev
 ```
 
-Frontend:
+6. Abrir en el navegador la dirección local que aparece en la terminal, normalmente http://localhost:5173.
 
-```txt
-http://localhost:5173
-```
+## Qué aprendí
 
-Backend/API:
+Con este proyecto pude practicar la creación de páginas web con React y TypeScript, el diseño con Tailwind CSS y la organización de una aplicación con frontend y backend.
 
-```txt
-http://localhost:3001/api/v1
-```
+También aprendí a trabajar con formularios, mostrar información de médicos y gestionar citas médicas.
 
-## Tablero Trello
+## Sobre el proyecto
 
-Añade aquí el enlace de tu tablero:
+Este proyecto fue realizado con fines educativos durante mi formación en un bootcamp. Los médicos, pacientes y consultas mostrados son datos de demostración.
 
-```txt
-https://trello.com/tu-tablero
-```
-
-## Despliegue
-
-Frontend en Vercel:
-
-```txt
-Añade aquí la URL final de Vercel
-```
-
-API:
-
-```txt
-Añade aquí la URL de la API si la despliegas separada
-```
-
-## Documentación
-
-Toda la documentación está dentro de la carpeta `docs/`.
+El inicio de sesión es simulado y no debe utilizarse como sistema de autenticación real.
