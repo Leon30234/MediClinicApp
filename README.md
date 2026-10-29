@@ -53,6 +53,8 @@ Con este proyecto pude practicar la creación de páginas web con React y TypeSc
 
 También aprendí a trabajar con formularios, mostrar información de médicos y gestionar citas médicas.
 
+EN EL APARTADO DE SCREENSHOTS ESTAN LAS CAPTURAS DE PANTALLA DE LA WEB FUNCIONANDO 
+
 ## Sobre el proyecto
 
 Este proyecto fue realizado con fines educativos durante mi formación en un bootcamp. Los médicos, pacientes y consultas mostrados son datos de demostración.
